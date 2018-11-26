@@ -1,0 +1,27 @@
+version: '3'
+services:
+  ubuntu:
+    image: ubuntu:18.04
+    working_dir: /root/scripts
+    volumes:
+      - .:/root/scripts
+    entrypoint:
+      - /bin/bash
+
+  ubuntu-xenial:
+    image: ubuntu:16.04
+    working_dir: /root/scripts
+    volumes:
+      - .:/root/scripts
+    entrypoint:
+      - /bin/bash
+
+  ubuntu-trusty:
+    image: ubuntu:14.04
+    working_dir: /root/scripts
+    volumes:
+      - .:/root/scripts
+    entrypoint:
+      - /bin/bash
+
+
