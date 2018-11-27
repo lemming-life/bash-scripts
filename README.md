@@ -1,6 +1,6 @@
 # Bash Scripts (WIP)
 A collection of bash scripts. We have the following types of scripts:
- - install (i), commands (c), uninstall (u).
+ - install, commands, uninstall.
 
 Scripts are under each of the shortened named directories.
 
@@ -9,11 +9,11 @@ We can utilize docker to test the validity of scripts inside of a virtual contai
 
 Installation:
 - Mac:
-  - `./i/brew.sh && ./i/docker.sh`
+  - `./install/brew.sh && ./install/docker.sh`
 - Linux:
-  - `./i/docker.sh`
+  - `./install/docker.sh`
 
-Run:
-- `docker-compose run ubuntu`
+Run (linux):
+- `docker-compose run ubuntu-bionic`
 
 Call scripts as needed.

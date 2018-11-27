@@ -1,6 +1,6 @@
 version: '3'
 services:
-  ubuntu:
+  ubuntu-bionic:
     image: ubuntu:18.04
     working_dir: /root/scripts
     volumes:
